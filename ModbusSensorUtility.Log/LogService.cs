@@ -14,4 +14,8 @@ public sealed class LogService {
 
     }
 
+    public void LogSuccess(string message) {
+        Log($"{message} - SUCCESS");
+    }
+
 }
